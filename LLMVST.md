@@ -34,9 +34,8 @@ If you're thinking of a community or donation-based server, this is the hardest 
 To focus the possibilities further, could you share whether your goal is to host the LLM model on your own server, or distribute it for users to run locally? This is the key decision that will shape the architecture.
 
 ~~~'''
-Oakmont Copeland <oakmontcopeland@gmail.com>
+
 Uni
-Oakmont Copeland <oakmontcopeland@gmail.com> To: Oakmont Copeland <oakmontcopeland@gmail.com>
 Dockerfile
 # Dockerfile
 FROM ruby:3.3-slim
@@ -328,11 +327,7 @@ snippet = item.content.length > 200 ? item.content[0..200] + '...' : item.conten
 puts "[#{time}] #{item.path.basename}: #{snippet}"
 end
 end
-Oakmont Legal Authority
-Lane County, Oregon
-Copeland iNC.
-01012026 122200
-On Fri, Jul 17, 2026 at 5:28 AM Oakmont Copeland <oakmontcopeland@gmail.com> wrote:
+
 Dockerfile
 FROM ruby:3.3-slim
 RUN apt-get update && apt-get install -y build-essential && rm -rf /var/lib/apt/lists/*
@@ -375,9 +370,7 @@ source 'https://rubygems.org'
 gem 'listen', '~> 3.8'
 gem 'minitest', '~> 5.18'
 
-Oakmont Copeland <oakmontcopeland@gmail.com>
 Uni
-Oakmont Copeland <oakmontcopeland@gmail.com> To: Oakmont Copeland <oakmontcopeland@gmail.com>
 Dockerfile
 # Dockerfile
 FROM ruby:3.3-slim
@@ -524,11 +517,6 @@ end
 end
 
 '''~~~
-Oakmont Legal Authority
-Lane County, Oregon
-Copeland iNC.
-01012026 122200
-On Fri, Jul 17, 2026 at 5:30 AM Oakmont Copeland <oakmontcopeland@gmail.com> wrote:
 Base O Converter
 # phi_converter.rb
 class PhiConverter
@@ -1971,7 +1959,6 @@ return {} unless @file.exist?
 data = JSON.parse(File.read(@file))
 data.map { |name, h| [name, Macro.new(h.transform_keys(&:to_sym))] }.to
 
-"""
 '''
 /bin/knowos
 #!/usr/bin/env ruby
