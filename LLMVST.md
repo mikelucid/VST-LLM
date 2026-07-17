@@ -33,8 +33,7 @@ If you're thinking of a community or donation-based server, this is the hardest 
 
 To focus the possibilities further, could you share whether your goal is to host the LLM model on your own server, or distribute it for users to run locally? This is the key decision that will shape the architecture.
 
-
-'''"""
+~~~'''
 Oakmont Copeland <oakmontcopeland@gmail.com>
 Uni
 Oakmont Copeland <oakmontcopeland@gmail.com> To: Oakmont Copeland <oakmontcopeland@gmail.com>
@@ -523,6 +522,8 @@ snippet = item.content.length > 200 ? item.content[0..200] + '...' : item.conten
 puts "[#{time}] #{item.path.basename}: #{snippet}"
 end
 end
+
+'''~~~
 Oakmont Legal Authority
 Lane County, Oregon
 Copeland iNC.
